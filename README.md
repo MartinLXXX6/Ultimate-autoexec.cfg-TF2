@@ -1,5 +1,7 @@
+This config prioritizes FPS and reduced visual clutter over graphical quality.
+
 # Disclaimer
-The commands provided in the autoexec.cfg are not officially approved by Valve and might generate crashes, glitches or undesired behabiour. Use them at your own risk.
+These commands use standard TF2 console variables. Some commands may have no effect on certain systems or TF2 versions. Test the configuration and adjust settings to your preference. Use at your own risk.
 
 # Read Before Use!
 This autoexec.cfg comes with a default fps limit at 60. To change it please follow the next steps:

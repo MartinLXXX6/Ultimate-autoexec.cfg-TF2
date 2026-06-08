@@ -1,7 +1,9 @@
 This Team Fortress 2 configuration prioritizes FPS and reduced visual clutter over graphical quality.
 
-# Disclaimer
-These commands use standard TF2 console variables. Some commands may have no effect on certain systems or TF2 versions. Test the configuration and adjust settings to your preference. Use at your own risk.
+# Frames Per Second Limit
+By default, this config does not limit in-game fps. This reduces input delay as much as possible.
+
+WARNING: Uncapped fps may result in more power consumption and higher resource usage.
 
 # Steam Launch Options (Must add them manually)
 Recommended: ```-novid -nojoy -nosteamcontroller -nohltv -noff -noipx -high -console```

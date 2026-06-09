@@ -6,7 +6,9 @@ By default, this config does not limit in-game fps. This reduces input delay as 
 WARNING: Uncapped fps may result in more power consumption and higher resource usage.
 
 # Steam Launch Options (Must add them manually)
-Recommended: ```-novid -nojoy -nosteamcontroller -nohltv -noff -noipx -high -console```
+Recommended: ```+tf_water_resolution 1 -novid -nojoy -nosteamcontroller -nohltv -noff -noipx -high -console```
+
+```+tf_water_resolution 1``` => Reduces water resolution to the absolute minimum. (only applies if added as a launch option)
 
 ```-novid``` => Skips the Valve intro video when launching TF2 for a faster startup.
 
@@ -35,7 +37,7 @@ Recommended: ```-novid -nojoy -nosteamcontroller -nohltv -noff -noipx -high -con
 
 ```fov_desired 90``` => Increases the field of view to the maximum available.
 
-```viewmodel_fov 82``` => Balances how far your weapon model (hands + gun) appears from your camera.
+```viewmodel_fov 90``` => Balances how far your weapon model (hands + gun) appears from your camera.
 
 # Quality of Life HUD Changes
 ```cl_disablehtmlmotd 1``` => Disables HTML-based “Message of the Day” (MOTD) pages that some community servers show.
@@ -57,6 +59,8 @@ Recommended: ```-novid -nojoy -nosteamcontroller -nohltv -noff -noipx -high -con
 ```hud_combattext_batching 1``` => Groups multiple damage numbers into a single combined.
 
 ```hud_combattext_batching_window 2``` => Defines the time window (in seconds) used for batching damage numbers.
+
+```cl_mvm_wave_status_visible_during_wave 1``` => Shows the MVM wave status during a wave in Man vs Machine.
 
 # Additional Resources
 Official commands list by Valve: https://developer.valvesoftware.com/wiki/List_of_Team_Fortress_2_console_commands_and_variables

@@ -14,7 +14,7 @@ Recommended: ```+tf_water_resolution 1 -novid -nojoy -nosteamcontroller -nohltv 
 
 ```-nojoy``` => Saves some resources by disabling joystick/gamepad input support.
 
-```-nosteamcontroller``` => Disables support for the Steam Controller input system.
+```-nosteamcontroller``` => Saves some resources by disabling support for the Steam Controller input system.
 
 ```-nohltv``` => Saves some resources by disabling half life tv support.
 
